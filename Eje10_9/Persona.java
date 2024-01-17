@@ -2,8 +2,8 @@ package Eje10_9;
 
 public class Persona {
 
-    private String nombre, apellido;
-    private int edad;
+    protected String nombre, apellido;
+    protected int edad;
 
     public Persona(String nombre, String apellido, int edad) {
         this.nombre = nombre;
@@ -34,4 +34,8 @@ public class Persona {
     public void setEdad(int edad) {
         this.edad = edad;
     }
+    public void viajar(){
+
+    }
+    public void PartidoDeFutbol abstract();
 }
