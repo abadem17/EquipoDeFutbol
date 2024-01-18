@@ -15,4 +15,15 @@ public class Entrenador extends Persona{
     public void setEstrategia(int estrategia) {
         this.estrategia = estrategia;
     }
+    public void planificarEntrenamiento(){
+        System.out.printf("Planifica entrenamiento");
+    }
+    @Override
+    public void entrenamiento(){
+        System.out.printf("Dirige entrenamiento");
+    }
+    @Override
+    public void PartidoDeFutbol(){
+        System.out.printf("Dirige el partido");
+    }
 }

@@ -1,10 +1,11 @@
 package Eje10_9;
 
-public class Futbolista {
+public class Futbolista extends Persona {
     private int dorsal;
     private String posicion;
 
-    public Futbolista(int dorsal, String posicion) {
+    public Futbolista(String nombre, String apellido, int edad, int dorsal, String posicion) {
+        super(nombre, apellido, edad);
         this.dorsal = dorsal;
         this.posicion = posicion;
     }
@@ -24,4 +25,15 @@ public class Futbolista {
     public void setPosicion(String posicion) {
         this.posicion = posicion;
     }
+    public void entrevista(){
+        System.out.printf("Da entrevista");
+    }
+    @Override
+    public void entrenamiento(){
+        System.out.printf("Entrenando");
+    }
+    public void PartidoDeFutbol(){
+        System.out.printf("juega el partido");
+    }
+
 }

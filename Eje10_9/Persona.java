@@ -1,6 +1,6 @@
 package Eje10_9;
 
-public class Persona {
+public abstract class Persona {
 
     protected String nombre, apellido;
     protected int edad;
@@ -37,5 +37,6 @@ public class Persona {
     public void viajar(){
 
     }
-    public void PartidoDeFutbol abstract();
+    public abstract void PartidoDeFutbol ();
+    public abstract void entrenamiento ();
 }

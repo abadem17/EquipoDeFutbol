@@ -25,4 +25,13 @@ public class Doctor extends Persona{
     public void setAnosExpericencia(int anosExpericencia) {
         this.anosExpericencia = anosExpericencia;
     }
+    public void curarLesion(){
+        System.out.println("Cura lesion");
+    }
+    public void PartidoDeFutbol(){
+        System.out.println("Da asistencia en partido");
+    }
+    public void entrenamiento(){
+        System.out.println("Da asistencia en entrenamiento");
+    }
 }
