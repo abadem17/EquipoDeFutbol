@@ -26,14 +26,14 @@ public class Futbolista extends Persona {
         this.posicion = posicion;
     }
     public void entrevista(){
-        System.out.printf("Da entrevista");
+        System.out.println("Da entrevista");
     }
     @Override
     public void entrenamiento(){
-        System.out.printf("Entrenando");
+        System.out.println("Entrenando");
     }
     public void PartidoDeFutbol(){
-        System.out.printf("juega el partido");
+        System.out.println("juega el partido");
     }
 
 }

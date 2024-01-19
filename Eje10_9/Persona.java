@@ -35,7 +35,7 @@ public abstract class Persona {
         this.edad = edad;
     }
     public void viajar(){
-
+        System.out.println("Viaje");
     }
     public abstract void PartidoDeFutbol ();
     public abstract void entrenamiento ();
